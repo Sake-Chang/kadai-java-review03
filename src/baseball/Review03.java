@@ -10,14 +10,15 @@ public class Review03 {
         BaseBallTeam bbt04 = new BaseBallTeam("読売ジャイアンツ", 68, 72, 3);
         BaseBallTeam bbt05 = new BaseBallTeam("広島東洋カープ", 66, 74, 3);
         BaseBallTeam bbt06 = new BaseBallTeam("中日ドラゴンズ", 66, 75, 2);
-       
+
+        // reportメソッドの呼び出し（※勝敗情報の表示）
         bbt01.report();
         bbt02.report();
         bbt03.report();
         bbt04.report();
         bbt05.report();
         bbt06.report();
-        
+
     }
 
 }
