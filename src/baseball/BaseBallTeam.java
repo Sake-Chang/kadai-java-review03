@@ -24,7 +24,7 @@ public class BaseBallTeam {
         return name;
     }
 
-    public void setName() {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -32,7 +32,7 @@ public class BaseBallTeam {
         return win;
     }
 
-    public void setWin() {
+    public void setWin(int win) {
         this.win = win;
     }
 
@@ -40,7 +40,7 @@ public class BaseBallTeam {
         return lose;
     }
 
-    public void setLose() {
+    public void setLose(int lose) {
         this.lose =lose;
     }
 
@@ -48,7 +48,7 @@ public class BaseBallTeam {
         return draw;
     }
 
-    public void setDraw() {
+    public void setDraw(int draw) {
         this.draw = draw;
     }
 
